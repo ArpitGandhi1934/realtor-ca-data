@@ -1,6 +1,0 @@
-﻿individual_id,name,position,brokerage,office_address,phone,profile_url,photo_url,searched,first_seen
-0000001,JANE DOE,Sales Representative,"EXAMPLE REALTY INC., BROKERAGE","123 EXAMPLE STREET, TORONTO, Ontario",416-555-0101,https://www.realtor.ca/realtor/0000001/,,"Toronto, ON",2026-10-06
-0000002,JOHN SAMPLE,Broker,"EXAMPLE REALTY INC., BROKERAGE","123 EXAMPLE STREET, TORONTO, Ontario",416-555-0102,https://www.realtor.ca/realtor/0000002/,,"Toronto, ON",2026-10-06
-0000003,ALEX PLACEHOLDER,Broker of Record,SAMPLE HOMES REALTY LTD.,"45 DEMO AVENUE, TORONTO, Ontario",647-555-0103,https://www.realtor.ca/realtor/0000003/,,"Toronto, ON",2026-10-06
-0000004,SAM TESTER,Sales Representative,SAMPLE HOMES REALTY LTD.,,,https://www.realtor.ca/realtor/0000004/,,North York,2026-10-06
-0000005,MORGAN EXAMPLE,Sales Representative,DEMO PROPERTIES INC.,"9 PLACEHOLDER ROAD, NORTH YORK, Ontario",905-555-0105,https://www.realtor.ca/realtor/0000005/,,North York,2026-10-06

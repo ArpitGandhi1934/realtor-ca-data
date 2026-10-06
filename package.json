@@ -1,7 +1,7 @@
 {
   "name": "realtor-ca-data",
   "version": "1.0.0",
-  "description": "Export Realtor.ca listings and the Realtor.ca agent directory to CSV, Excel (XLSX) or JSONL with Node.js or Python, via the yugenox Realtor.ca Actors on Apify.",
+  "description": "Export Realtor.ca listings to CSV, Excel (XLSX) or JSONL with Node.js or Python, via the yugenox Realtor.ca Property Scraper on Apify.",
   "type": "module",
   "private": true,
   "license": "MIT",
@@ -9,8 +9,7 @@
     "node": ">=20.6"
   },
   "scripts": {
-    "listings": "node listings.mjs --help",
-    "agents": "node agents.mjs --help"
+    "listings": "node listings.mjs --help"
   },
   "dependencies": {
     "apify-client": "^2.25.0",
