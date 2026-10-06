@@ -1,0 +1,786 @@
+[
+  {
+    "mlsNumber": "C13865220",
+    "listingUrl": "https://www.realtor.ca/real-estate/30368375/44-conway-avenue-toronto-oakwood-village",
+    "address": "44 CONWAY AVENUE",
+    "cityProvince": "Toronto (Oakwood Village), Ontario M6E1H2",
+    "postalCode": "M6E1H2",
+    "province": "Ontario",
+    "price": "$980,000",
+    "priceValue": 980000,
+    "propertyType": "Single Family",
+    "ownershipType": "Freehold",
+    "bedrooms": "3",
+    "bathrooms": "2",
+    "sizeInterior": "65.0316 m2",
+    "stories": "1",
+    "parking": "2",
+    "latitude": 43.6823834,
+    "longitude": -79.4391487,
+    "daysOnRealtor": 8,
+    "listedDateUTC": "639268574866970000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268430867000000/reb82/highres/0/c13865220_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "8 min ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 01",
+        "brokerage": "BOSLEY REAL ESTATE LTD.",
+        "organizationId": 50443,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13865188",
+    "listingUrl": "https://www.realtor.ca/real-estate/30368351/170-forest-hill-road-toronto-forest-hill-south",
+    "address": "170 FOREST HILL ROAD",
+    "cityProvince": "Toronto (Forest Hill South), Ontario M5P2N4",
+    "postalCode": "M5P2N4",
+    "province": "Ontario",
+    "price": "$16,880,000",
+    "priceValue": 16880000,
+    "propertyType": "Single Family",
+    "ownershipType": "Freehold",
+    "bedrooms": "5 + 1",
+    "bathrooms": "9",
+    "sizeInterior": "464.5113 m2",
+    "stories": "3",
+    "parking": "4",
+    "latitude": 43.6966373,
+    "longitude": -79.4076981,
+    "daysOnRealtor": 43,
+    "listedDateUTC": "639268556506570000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268412506670000/reb82/highres/8/c13865188_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "43 min ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 02",
+        "brokerage": "SOTHEBY'S INTERNATIONAL REALTY CANADA",
+        "organizationId": 114884,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13865156",
+    "listingUrl": "https://www.realtor.ca/real-estate/30368328/3101-20-richardson-street-e-toronto-waterfront-communities-waterfront-communities-c8",
+    "address": "3101 - 20 RICHARDSON STREET E",
+    "cityProvince": "Toronto (Waterfront Communities), Ontario M5A0S6",
+    "postalCode": "M5A0S6",
+    "province": "Ontario",
+    "price": "$449,900",
+    "priceValue": 449900,
+    "propertyType": "Single Family",
+    "ownershipType": "Condominium/Strata",
+    "bedrooms": "1",
+    "bathrooms": "1",
+    "sizeInterior": "46.4511 m2",
+    "stories": null,
+    "parking": "0",
+    "latitude": 43.6455273,
+    "longitude": -79.3687037,
+    "daysOnRealtor": 1,
+    "listedDateUTC": "639268538980530000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268394980570000/reb82/highres/6/c13865156_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "1 hour ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 03",
+        "brokerage": "RE/MAX EXCEL TITAN",
+        "organizationId": 289134,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13865170",
+    "listingUrl": "https://www.realtor.ca/real-estate/30368333/106-clovelly-avenue-toronto-oakwood-village",
+    "address": "106 CLOVELLY AVENUE",
+    "cityProvince": "Toronto (Oakwood Village), Ontario M6E2E6",
+    "postalCode": "M6E2E6",
+    "province": "Ontario",
+    "price": "$849,000",
+    "priceValue": 849000,
+    "propertyType": "Single Family",
+    "ownershipType": "Freehold",
+    "bedrooms": "3 + 2",
+    "bathrooms": "4",
+    "sizeInterior": "102.1925 m2",
+    "stories": "1.5",
+    "parking": "2",
+    "latitude": 43.6947433,
+    "longitude": -79.443685,
+    "daysOnRealtor": 1,
+    "listedDateUTC": "639268538984400000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268394984470000/reb82/highres/0/c13865170_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "1 hour ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 04",
+        "brokerage": "KELLER WILLIAMS PORTFOLIO REALTY",
+        "organizationId": 283379,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13864980",
+    "listingUrl": "https://www.realtor.ca/real-estate/30368093/115-blue-jays-way-street-toronto-waterfront-communities-waterfront-communities-c1",
+    "address": "115 BLUE JAYS WAY STREET",
+    "cityProvince": "Toronto (Waterfront Communities), Ontario M5V0N4",
+    "postalCode": "M5V0N4",
+    "province": "Ontario",
+    "price": "$525,000",
+    "priceValue": 525000,
+    "propertyType": "Single Family",
+    "ownershipType": "Condominium/Strata",
+    "bedrooms": "1",
+    "bathrooms": "1",
+    "sizeInterior": "46.4511 m2",
+    "stories": null,
+    "parking": "0",
+    "latitude": 43.6456249,
+    "longitude": -79.3918981,
+    "daysOnRealtor": 3,
+    "listedDateUTC": "639268467176970000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268323177000000/reb82/highres/0/c13864980_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "3 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 05",
+        "brokerage": "ROYAL LEPAGE VISION REALTY",
+        "organizationId": 51252,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13865022",
+    "listingUrl": "https://www.realtor.ca/real-estate/30368097/304-2a-church-street-toronto-waterfront-communities-waterfront-communities-c8",
+    "address": "304 - 2A CHURCH STREET",
+    "cityProvince": "Toronto (Waterfront Communities), Ontario M5E0E1",
+    "postalCode": "M5E0E1",
+    "province": "Ontario",
+    "price": "$418,000",
+    "priceValue": 418000,
+    "propertyType": "Single Family",
+    "ownershipType": "Condominium/Strata",
+    "bedrooms": "1",
+    "bathrooms": "1",
+    "sizeInterior": null,
+    "stories": null,
+    "parking": "0",
+    "latitude": 43.6469263,
+    "longitude": -79.3734286,
+    "daysOnRealtor": 3,
+    "listedDateUTC": "639268467180400000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268323180400000/reb82/highres/2/c13865022_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "3 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 06",
+        "brokerage": "KING BLUE REALTY INC.",
+        "organizationId": 297109,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13865000",
+    "listingUrl": "https://www.realtor.ca/real-estate/30368095/67-burncrest-drive-toronto-bedford-park-nortown",
+    "address": "67 BURNCREST DRIVE",
+    "cityProvince": "Toronto (Bedford Park-Nortown), Ontario M5M2Z4",
+    "postalCode": "M5M2Z4",
+    "province": "Ontario",
+    "price": "$1,885,000",
+    "priceValue": 1885000,
+    "propertyType": "Single Family",
+    "ownershipType": "Freehold",
+    "bedrooms": "4 + 3",
+    "bathrooms": "4",
+    "sizeInterior": "139.3534 m2",
+    "stories": "1",
+    "parking": "3",
+    "latitude": 43.7373102,
+    "longitude": -79.4282277,
+    "daysOnRealtor": 3,
+    "listedDateUTC": "639268467178500000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268323178530000/reb82/highres/0/c13865000_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "3 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 07",
+        "brokerage": "RE/MAX WEST REALTY INC.",
+        "organizationId": 50719,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13864944",
+    "listingUrl": "https://www.realtor.ca/real-estate/30368089/2508-101-charles-street-e-toronto-church-yonge-corridor",
+    "address": "2508 - 101 CHARLES STREET E",
+    "cityProvince": "Toronto (Church-Yonge Corridor), Ontario M4Y0A9",
+    "postalCode": "M4Y0A9",
+    "province": "Ontario",
+    "price": "$589,000",
+    "priceValue": 589000,
+    "propertyType": "Single Family",
+    "ownershipType": "Condominium/Strata",
+    "bedrooms": "1 + 1",
+    "bathrooms": "1",
+    "sizeInterior": "55.7414 m2",
+    "stories": null,
+    "parking": "0",
+    "latitude": 43.6696596,
+    "longitude": -79.3805215,
+    "daysOnRealtor": 3,
+    "listedDateUTC": "639268467174070000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268323174100000/reb82/highres/4/c13864944_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "3 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 08",
+        "brokerage": "RIGHT AT HOME REALTY",
+        "organizationId": 256963,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13864826",
+    "listingUrl": "https://www.realtor.ca/real-estate/30367895/123-birch-avenue-toronto-annex",
+    "address": "123 BIRCH AVENUE",
+    "cityProvince": "Toronto (Annex), Ontario M4V1E3",
+    "postalCode": "M4V1E3",
+    "province": "Ontario",
+    "price": "$3,179,000",
+    "priceValue": 3179000,
+    "propertyType": "Single Family",
+    "ownershipType": "Freehold",
+    "bedrooms": "4",
+    "bathrooms": "4",
+    "sizeInterior": "185.8045 m2",
+    "stories": "3",
+    "parking": "2",
+    "latitude": 43.6804483,
+    "longitude": -79.396471,
+    "daysOnRealtor": 4,
+    "listedDateUTC": "639268431686470000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268287686500000/reb82/highres/6/c13864826_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "4 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 09",
+        "brokerage": "ROYAL LEPAGE REAL ESTATE SERVICES OXLEY REAL ESTAT",
+        "organizationId": 280520,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13864846",
+    "listingUrl": "https://www.realtor.ca/real-estate/30367896/1008-20-soudan-avenue-toronto-mount-pleasant-west",
+    "address": "1008 - 20 SOUDAN AVENUE",
+    "cityProvince": "Toronto (Mount Pleasant West), Ontario M4S1V5",
+    "postalCode": "M4S1V5",
+    "province": "Ontario",
+    "price": "$799,000",
+    "priceValue": 799000,
+    "propertyType": "Single Family",
+    "ownershipType": "Condominium/Strata",
+    "bedrooms": "2",
+    "bathrooms": "2",
+    "sizeInterior": "65.0316 m2",
+    "stories": null,
+    "parking": "1",
+    "latitude": 43.7046487,
+    "longitude": -79.3975402,
+    "daysOnRealtor": 4,
+    "listedDateUTC": "639268431687200000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268287687230000/reb82/highres/6/c13864846_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "4 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 10",
+        "brokerage": "RE/MAX ULTIMATE REALTY INC.",
+        "organizationId": 267769,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13864910",
+    "listingUrl": "https://www.realtor.ca/real-estate/30367902/605-223-st-clair-avenue-toronto-yonge-st-clair",
+    "address": "605 - 223 ST CLAIR AVENUE",
+    "cityProvince": "Toronto (Yonge-St. Clair), Ontario M4V0A5",
+    "postalCode": "M4V0A5",
+    "province": "Ontario",
+    "price": "$939,900",
+    "priceValue": 939900,
+    "propertyType": "Single Family",
+    "ownershipType": "Condominium/Strata",
+    "bedrooms": "2 + 1",
+    "bathrooms": "2",
+    "sizeInterior": "83.612 m2",
+    "stories": null,
+    "parking": "1",
+    "latitude": 43.6857925,
+    "longitude": -79.4046553,
+    "daysOnRealtor": 4,
+    "listedDateUTC": "639268431692570000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268287692600000/reb82/highres/0/c13864910_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "4 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 11",
+        "brokerage": "PSR",
+        "organizationId": 163253,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "W13864712",
+    "listingUrl": "https://www.realtor.ca/real-estate/30367756/15-95-eastwood-park-garden-toronto-long-branch",
+    "address": "15 - 95 EASTWOOD PARK GARDEN",
+    "cityProvince": "Toronto (Long Branch), Ontario M8W0B9",
+    "postalCode": "M8W0B9",
+    "province": "Ontario",
+    "price": "$849,999",
+    "priceValue": 849999,
+    "propertyType": "Single Family",
+    "ownershipType": "Condominium/Strata",
+    "bedrooms": "2",
+    "bathrooms": "3",
+    "sizeInterior": "111.4827 m2",
+    "stories": "2",
+    "parking": "1",
+    "latitude": 43.5947061,
+    "longitude": -79.5351847,
+    "daysOnRealtor": 5,
+    "listedDateUTC": "639268399409000000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268255409000000/reb82/highres/2/w13864712_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "5 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 12",
+        "brokerage": "RIGHT AT HOME REALTY",
+        "organizationId": 90198,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "W13864698",
+    "listingUrl": "https://www.realtor.ca/real-estate/30367755/114-regent-road-toronto-downsview-roding-cfb",
+    "address": "114 REGENT ROAD",
+    "cityProvince": "Toronto (Downsview-Roding-CFB), Ontario M3K1H4",
+    "postalCode": "M3K1H4",
+    "province": "Ontario",
+    "price": "$1,548,000",
+    "priceValue": 1548000,
+    "propertyType": "Single Family",
+    "ownershipType": "Freehold",
+    "bedrooms": "4 + 1",
+    "bathrooms": "4",
+    "sizeInterior": "185.8045 m2",
+    "stories": "2",
+    "parking": "6",
+    "latitude": 43.7318662,
+    "longitude": -79.4665638,
+    "daysOnRealtor": 5,
+    "listedDateUTC": "639268399408000000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268255408030000/reb82/highres/8/w13864698_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "5 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 13",
+        "brokerage": "FOREST HILL REAL ESTATE INC.",
+        "organizationId": 284847,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13864696",
+    "listingUrl": "https://www.realtor.ca/real-estate/30367712/92-inglewood-drive-toronto-rosedale-moore-park",
+    "address": "92 INGLEWOOD DRIVE",
+    "cityProvince": "Toronto (Rosedale-Moore Park), Ontario M4T1H5",
+    "postalCode": "M4T1H5",
+    "province": "Ontario",
+    "price": "$4,395,000",
+    "priceValue": 4395000,
+    "propertyType": "Single Family",
+    "ownershipType": "Freehold",
+    "bedrooms": "5 + 1",
+    "bathrooms": "6",
+    "sizeInterior": "464.5113 m2",
+    "stories": "2.5",
+    "parking": "8",
+    "latitude": 43.6892767,
+    "longitude": -79.3871976,
+    "daysOnRealtor": 5,
+    "listedDateUTC": "639268395775800000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268251775830000/reb82/highres/6/c13864696_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "5 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 14",
+        "brokerage": "ROYAL LEPAGE SIGNATURE REALTY",
+        "organizationId": 51317,
+        "phone": null,
+        "phones": []
+      },
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 15",
+        "brokerage": "ROYAL LEPAGE SIGNATURE REALTY",
+        "organizationId": 51317,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13864700",
+    "listingUrl": "https://www.realtor.ca/real-estate/30367713/203-cassandra-boulevard-toronto-parkwoods-donalda",
+    "address": "203 CASSANDRA BOULEVARD",
+    "cityProvince": "Toronto (Parkwoods-Donalda), Ontario M3A1T5",
+    "postalCode": "M3A1T5",
+    "province": "Ontario",
+    "price": "$1,488,000",
+    "priceValue": 1488000,
+    "propertyType": "Single Family",
+    "ownershipType": "Freehold",
+    "bedrooms": "4 + 1",
+    "bathrooms": "4",
+    "sizeInterior": "185.8045 m2",
+    "stories": null,
+    "parking": "4",
+    "latitude": 43.7538578,
+    "longitude": -79.3208557,
+    "daysOnRealtor": 5,
+    "listedDateUTC": "639268395777070000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268251777100000/reb82/highres/0/c13864700_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "5 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 16",
+        "brokerage": "BAY STREET GROUP INC.",
+        "organizationId": 280684,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "W13864652",
+    "listingUrl": "https://www.realtor.ca/real-estate/30367672/1-dundee-drive-toronto-york-university-heights",
+    "address": "1 DUNDEE DRIVE",
+    "cityProvince": "Toronto (York University Heights), Ontario M3J1H5",
+    "postalCode": "M3J1H5",
+    "province": "Ontario",
+    "price": "$1,250,000",
+    "priceValue": 1250000,
+    "propertyType": "Single Family",
+    "ownershipType": "Freehold",
+    "bedrooms": "3 + 2",
+    "bathrooms": "2",
+    "sizeInterior": "102.1925 m2",
+    "stories": "1",
+    "parking": "6",
+    "latitude": 43.7558815,
+    "longitude": -79.5000538,
+    "daysOnRealtor": 5,
+    "listedDateUTC": "639268380587330000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268236587370000/reb82/highres/2/w13864652_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "5 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 17",
+        "brokerage": "RE/MAX OPTIMUM REALTY",
+        "organizationId": 287444,
+        "phone": null,
+        "phones": []
+      },
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 18",
+        "brokerage": "RE/MAX QUANTUM REALTY",
+        "organizationId": 301055,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13864624",
+    "listingUrl": "https://www.realtor.ca/real-estate/30367604/310-50-bruyeres-mews-toronto-waterfront-communities-waterfront-communities-c1",
+    "address": "310 - 50 BRUYERES MEWS",
+    "cityProvince": "Toronto (Waterfront Communities), Ontario M5V0H8",
+    "postalCode": "M5V0H8",
+    "province": "Ontario",
+    "price": "$429,900",
+    "priceValue": 429900,
+    "propertyType": "Single Family",
+    "ownershipType": "Condominium/Strata",
+    "bedrooms": "1 + 1",
+    "bathrooms": "1",
+    "sizeInterior": "46.4511 m2",
+    "stories": null,
+    "parking": "0",
+    "latitude": 43.6376,
+    "longitude": -79.4022445,
+    "daysOnRealtor": 5,
+    "listedDateUTC": "639268376739330000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268232739370000/reb82/highres/4/c13864624_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "5 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 19",
+        "brokerage": "CENTURY 21 KING'S QUAY REAL ESTATE INC.",
+        "organizationId": 50606,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "W13864612",
+    "listingUrl": "https://www.realtor.ca/real-estate/30367497/819-50-thomas-riley-road-toronto-islington-city-centre-west",
+    "address": "819 - 50 THOMAS RILEY ROAD",
+    "cityProvince": "Toronto (Islington-City Centre West), Ontario M9B0C1",
+    "postalCode": "M9B0C1",
+    "province": "Ontario",
+    "price": "$488,000",
+    "priceValue": 488000,
+    "propertyType": "Single Family",
+    "ownershipType": "Condominium/Strata",
+    "bedrooms": "1 + 1",
+    "bathrooms": "1",
+    "sizeInterior": "55.7414 m2",
+    "stories": null,
+    "parking": "1",
+    "latitude": 43.6335793,
+    "longitude": -79.5413393,
+    "daysOnRealtor": 6,
+    "listedDateUTC": "639268363266270000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268219266300000/reb82/highres/2/w13864612_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "6 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 20",
+        "brokerage": "ROYAL LEPAGE MAXIMUM REALTY",
+        "organizationId": 50366,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "W13864562",
+    "listingUrl": "https://www.realtor.ca/real-estate/30367487/1301-1135-royal-york-road-toronto-edenbridge-humber-valley",
+    "address": "1301 - 1135 ROYAL YORK ROAD",
+    "cityProvince": "Toronto (Edenbridge-Humber Valley), Ontario M9A0C3",
+    "postalCode": "M9A0C3",
+    "province": "Ontario",
+    "price": "$899,000",
+    "priceValue": 899000,
+    "propertyType": "Single Family",
+    "ownershipType": "Condominium/Strata",
+    "bedrooms": "2 + 1",
+    "bathrooms": "3",
+    "sizeInterior": "92.9023 m2",
+    "stories": null,
+    "parking": "1",
+    "latitude": 43.6601147,
+    "longitude": -79.5161431,
+    "daysOnRealtor": 6,
+    "listedDateUTC": "639268363259530000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268219259570000/reb82/highres/2/w13864562_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "6 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 21",
+        "brokerage": "RIGHT AT HOME REALTY",
+        "organizationId": 68202,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "mlsNumber": "C13864590",
+    "listingUrl": "https://www.realtor.ca/real-estate/30367440/19-admiral-road-toronto-annex",
+    "address": "19 ADMIRAL ROAD",
+    "cityProvince": "Toronto (Annex), Ontario M5R2L4",
+    "postalCode": "M5R2L4",
+    "province": "Ontario",
+    "price": "$5,295,000",
+    "priceValue": 5295000,
+    "propertyType": "Single Family",
+    "ownershipType": "Freehold",
+    "bedrooms": "3 + 1",
+    "bathrooms": "5",
+    "sizeInterior": "325.1579 m2",
+    "stories": "3",
+    "parking": "1",
+    "latitude": 43.6712551,
+    "longitude": -79.3996131,
+    "daysOnRealtor": 6,
+    "listedDateUTC": "639268359490430000",
+    "photoUrl": "https://cdn.realtor.ca/listings/TS639268215490500000/reb82/highres/0/c13864590_1.jpg",
+    "photoCount": 1,
+    "publicRemarks": null,
+    "tags": [
+      "6 hours ago"
+    ],
+    "agents": [
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 22",
+        "brokerage": "CHESTNUT PARK REAL ESTATE LIMITED",
+        "organizationId": 51236,
+        "phone": null,
+        "phones": []
+      },
+      {
+        "individualId": null,
+        "name": "LISTING AGENT 23",
+        "brokerage": "CHESTNUT PARK REAL ESTATE LIMITED",
+        "organizationId": 51236,
+        "phone": null,
+        "phones": []
+      }
+    ],
+    "location": "Toronto, ON"
+  }
+]

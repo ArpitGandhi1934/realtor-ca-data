@@ -1,0 +1,15 @@
+.env
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+# your own exports; the committed examples live in samples/
+/*.csv
+/*.xlsx
+/*.jsonl
+/*.json
+!/package.json
+!/package-lock.json
+/out/
+.DS_Store

@@ -1,0 +1,6 @@
+# One city per line, as "City, Province" or just the city. Lines starting with # are ignored.
+# Supported: Toronto, Mississauga, Brampton, Vaughan, Markham, Oakville, Hamilton, Ottawa, London,
+# Vancouver, Surrey, Burnaby, Victoria, Calgary, Edmonton, Montreal, Winnipeg, Halifax.
+Toronto, ON
+Mississauga, ON
+Ottawa, ON

@@ -1,0 +1,5 @@
+# One location per line for the agent search: a city, a district or neighbourhood, or a province.
+# Spelling must match Realtor.ca. Postal codes don't work. Lines starting with # are ignored.
+Oakville, ON
+North York
+Yorkville
