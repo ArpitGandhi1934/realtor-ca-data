@@ -16,6 +16,7 @@ const ACTOR = 'yugenox/realtor-ca-agent-scraper';
 // Realtor.ca's agent search never resolves a postal code (full or first 3 characters), so the
 // script stops before starting a run for one.
 const POSTAL_RE = /^[A-Za-z]\d[A-Za-z][ -]?(\d[A-Za-z]\d)?$/;
+const PRICE_PER_ROW = 0.001; // USD per agent (Apify Store, checked 2026-10-06), for the cost-cap warning
 
 const HELP = `Export the Realtor.ca agent directory to CSV, Excel (.xlsx) or JSONL.
 
@@ -223,6 +224,11 @@ async function main() {
         let datasetId = o.dataset;
         if (!datasetId) {
             const input = { locations: o.locations, limitPerLocation: o.limit };
+            const most = o.locations.length * o.limit;
+            if (most * PRICE_PER_ROW > o.maxCharge) {
+                console.error(`Up to ${most} agents at $${PRICE_PER_ROW} each can cost more than the $${o.maxCharge} cost cap, `
+                    + 'and agents past the cap are not collected. Raise --max-charge to get them all.');
+            }
             console.error(`Running ${ACTOR}: ${o.locations.length} location(s), up to ${o.limit} agents each, `
                 + `cost cap $${o.maxCharge} ...`);
             // maxTotalChargeUsd caps what this run can cost you (pay-per-event Actors only).

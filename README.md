@@ -95,7 +95,7 @@ Both languages take the same options and write byte-identical CSV and JSONL (`--
 | `--append` | Add only listings whose `mls_number` isn't in `--out` yet (`.csv` or `.jsonl`) | |
 | `--new-out FILE` | With `--append`: also write just this run's new listings to their own file | |
 | `--no-agents` | Leave the listing agents' names and phones out; the brokerage stays | |
-| `--max-charge USD` | Hard cost cap for the run, enforced by Apify | `2` |
+| `--max-charge USD` | Hard cost cap for the run, enforced by Apify. Rows past the cap aren't collected | `2` |
 | `--dataset ID` | Export a run you already made in Apify Console. No new run starts | |
 | `--from FILE` | Convert a JSON or JSONL file of the Actor's rows (a Console export) or of this script's rows. Needs no token | |
 | `--any-city` | Skip the script's city check, in case the Actor adds cities | |
@@ -135,7 +135,7 @@ node listings.mjs --from today.json --append --out toronto.csv --new-out toronto
 
 ## Use cases
 
-- **Canadian real estate market data:** asking prices, sizes and new supply by neighbourhood or postal code, refreshed on a schedule.
+- **Canadian real estate market data:** asking prices, sizes and new supply per city, grouped by neighbourhood or postal code in your spreadsheet, refreshed on a schedule.
 - **Businesses that serve listings** (photographers, stagers, mortgage brokers): each morning's new listings in your area, with the listing brokerage.
 - **Brokerage research:** agent counts by brokerage and title in a city, from the agent export.
 
@@ -146,21 +146,21 @@ Pay per row, billed to your own Apify account. From the Actors' pricing in the A
 | | Realtor.ca Property Scraper | Realtor.ca Agent Scraper |
 |---|---:|---:|
 | Per listing / per agent | $0.001 ($1.00 per 1,000) | $0.001 ($1.00 per 1,000) |
-| Start fee per run, today | $0.00005 | $0.00005 |
+| Start fee per run, until 2026-10-11 (19:57 UTC) | $0.00005 | $0.00005 |
 | Start fee per run from 2026-10-11 (19:57 UTC) | $0.002 | $0.003 |
 
 The per-row price is the same on every Apify plan and doesn't change on October 11; only the start fee does. The start fee is charged once per run per GB of memory, and runs use 1 GB by default. The Actors' compute isn't billed on top.
 
-| Example | Rows | Cost today | From 2026-10-11 |
+| Example | Rows | Until 2026-10-11 | From 2026-10-11 |
 |---|---:|---:|---:|
 | One city, `--limit 100` (the default) | 100 listings | $0.10 | $0.10 |
 | One city, `--limit 500` (the maximum) | 500 listings | $0.50 | $0.50 |
-| All 18 cities, `--limit 500` | up to 9,000 listings | up to $9.00 | up to $9.00 |
+| All 18 cities, `--limit 500 --max-charge 10` | up to 9,000 listings | up to $9.00 | up to $9.00 |
 | Daily new-listings check, one city, `--limit 200`, 30 days | 6,000 listings | $6.00 | $6.06 |
 | One location, `--limit 50` (the default) | 50 agents | $0.05 | $0.05 |
 | Three cities, 1,000 agents | 1,000 agents | $1.00 | $1.00 |
 
-Amounts are rounded to the cent. Apify's Free plan includes monthly usage credit you can spend on these Actors. `--max-charge` (default $2) is a hard cap Apify enforces for each run.
+Amounts are rounded to the cent. Apify's Free plan includes monthly usage credit you can spend on these Actors. `--max-charge` (default $2) is a hard cap Apify enforces for each run: rows past the cap aren't collected, and the scripts warn before starting a run that could go past it. Raise it for big runs, as in the 18-city row.
 
 ## Limits
 
@@ -185,7 +185,7 @@ Amounts are rounded to the cent. Apify's Free plan includes monthly usage credit
 Not a public one for listing data. CREA's REALTOR.ca DDF® "is a managed service for REALTORS® and broker owners who are looking to share listings with multiple third-party websites" ([CREA][ddf], read 2026-10-06). If you are a REALTOR® member or build for one, DDF® is the licensed route. Otherwise, the Actors here read what Realtor.ca shows any visitor and return it as data you can call from Python, Node.js, `curl` or any HTTP client.
 
 **Is scraping Realtor.ca legal?**
-Here are the facts; this is not legal advice. The Actors read only pages anyone can open on Realtor.ca without an account, and never sign in. The listing rows include the listing agents' names and phone numbers, and the agent rows are business contact details that agents publish; both are still personal information under PIPEDA (Canada), GDPR and similar laws. You're responsible for having a lawful reason to collect and keep them, for following REALTOR.ca's terms of use, and for getting consent before you send commercial electronic messages (CASL). For a commercial product, ask a lawyer. More: [Is web scraping legal?][legal]
+Here are the facts; this is not legal advice. The Actors read only the listing and directory data Realtor.ca shows any visitor without an account, and never sign in. The listing rows include the listing agents' names and phone numbers, and the agent rows are business contact details that agents publish; both are still personal information under PIPEDA (Canada), GDPR and similar laws. You're responsible for having a lawful reason to collect and keep them, for following REALTOR.ca's terms of use, and for getting consent before you send commercial electronic messages (CASL). For a commercial product, ask a lawyer. More: [Is web scraping legal?][legal]
 
 **Do I need an MLS® feed, CREA membership or a brokerage login?**
 No. The Actors don't use any of them.

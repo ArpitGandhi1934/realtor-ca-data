@@ -23,6 +23,7 @@ const CITIES = ['Toronto', 'Mississauga', 'Brampton', 'Vaughan', 'Markham', 'Oak
     'Ottawa', 'London', 'Vancouver', 'Surrey', 'Burnaby', 'Victoria', 'Calgary', 'Edmonton',
     'Montreal', 'Winnipeg', 'Halifax'];
 const MAX_PER_CITY = 500; // the most listings one Realtor.ca search area returns
+const PRICE_PER_ROW = 0.001; // USD per listing (Apify Store, checked 2026-10-06), for the cost-cap warning
 
 const HELP = `Export Realtor.ca listings to CSV, Excel (.xlsx) or JSONL.
 
@@ -308,6 +309,11 @@ async function main() {
                 transactionType: o.type ?? 'sale',
                 propertyType: o.property ?? 'residential',
             };
+            const most = o.cities.length * o.limit;
+            if (most * PRICE_PER_ROW > o.maxCharge) {
+                console.error(`Up to ${most} listings at $${PRICE_PER_ROW} each can cost more than the $${o.maxCharge} cost cap, `
+                    + 'and listings past the cap are not collected. Raise --max-charge to get them all.');
+            }
             console.error(`Running ${ACTOR}: ${o.cities.length} city(ies), up to ${o.limit} ${input.propertyType} `
                 + `listings for ${input.transactionType} each, cost cap $${o.maxCharge} ...`);
             // maxTotalChargeUsd caps what this run can cost you (pay-per-event Actors only).

@@ -38,6 +38,7 @@ CITIES = [
     "Montreal", "Winnipeg", "Halifax",
 ]
 MAX_PER_CITY = 500  # the most listings one Realtor.ca search area returns
+PRICE_PER_ROW = 0.001  # USD per listing (Apify Store, checked 2026-10-06), for the cost-cap warning
 
 # Column order for CSV, XLSX and JSONL.
 COLUMNS = [
@@ -342,6 +343,10 @@ def main() -> None:
                 "transactionType": args.type or "sale",
                 "propertyType": args.property or "residential",
             }
+            most = len(cities) * args.limit
+            if most * PRICE_PER_ROW > args.max_charge:
+                print(f"Up to {most} listings at ${PRICE_PER_ROW:g} each can cost more than the ${args.max_charge:g} cost cap, "
+                      "and listings past the cap are not collected. Raise --max-charge to get them all.", file=sys.stderr)
             print(f"Running {ACTOR}: {len(cities)} city(ies), up to {args.limit} {run_input['propertyType']} "
                   f"listings for {run_input['transactionType']} each, cost cap ${args.max_charge:g} ...", file=sys.stderr)
             # max_total_charge_usd caps what this run can cost you (pay-per-event Actors only).

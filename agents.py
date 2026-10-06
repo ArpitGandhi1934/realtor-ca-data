@@ -28,6 +28,7 @@ ACTOR = "yugenox/realtor-ca-agent-scraper"
 # Realtor.ca's agent search never resolves a postal code (full or first 3 characters), so the
 # script stops before starting a run for one.
 POSTAL_RE = re.compile(r"^[A-Za-z]\d[A-Za-z][ -]?(\d[A-Za-z]\d)?$")
+PRICE_PER_ROW = 0.001  # USD per agent (Apify Store, checked 2026-10-06), for the cost-cap warning
 
 # Column order for CSV, XLSX and JSONL.
 COLUMNS = [
@@ -245,6 +246,10 @@ def main() -> None:
         dataset_id = args.dataset
         if not dataset_id:
             run_input = {"locations": locations, "limitPerLocation": args.limit}
+            most = len(locations) * args.limit
+            if most * PRICE_PER_ROW > args.max_charge:
+                print(f"Up to {most} agents at ${PRICE_PER_ROW:g} each can cost more than the ${args.max_charge:g} cost cap, "
+                      "and agents past the cap are not collected. Raise --max-charge to get them all.", file=sys.stderr)
             print(f"Running {ACTOR}: {len(locations)} location(s), up to {args.limit} agents each, "
                   f"cost cap ${args.max_charge:g} ...", file=sys.stderr)
             # max_total_charge_usd caps what this run can cost you (pay-per-event Actors only).
